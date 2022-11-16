@@ -17,6 +17,7 @@ html {
 	/* height: 250vh; */
 	text-align: center;
 	color: #fff;
+	overflow-x: hidden;
 }
 #nav {
 	width: 100%;
