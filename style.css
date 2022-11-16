@@ -268,4 +268,7 @@ html {
 	#con {
 		display: none;
 	}
+	#illustration {
+		font-size: 6vw;
+	}
 }
