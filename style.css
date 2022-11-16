@@ -1,0 +1,267 @@
+/** @format */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+#main {
+	width: 100%;
+	background-color: #151419;
+	position: relative;
+	/* height: 250vh; */
+	text-align: center;
+	color: #fff;
+}
+#nav {
+	width: 100%;
+	height: 10vh;
+	/* background-color: antiquewhite; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* position: absolute;
+	top: 0%;
+	left: 0%; */
+	margin-bottom: 3.7rem;
+}
+
+#nav #ndiv-1 {
+	height: 100%;
+	width: 20%;
+	/* background-color: aquamarine; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#ndiv-1 h2 {
+	font-size: 1.7rem;
+	color: #fff;
+}
+#ndiv-1 i {
+	color: #b38d7a;
+	font-size: 1.2vw;
+}
+#nav #ndiv-2 {
+	height: 100%;
+	width: 30%;
+	/* background-color: rgb(59, 165, 165); */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#ndiv-2 button {
+	opacity: 0.6;
+	padding: 0% 1.4vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	height: 6vh;
+	border-radius: 1.6vw;
+	border: 1px solid #fff;
+	background-color: #151419;
+	color: #fff;
+}
+#nav #ndiv-3 {
+	height: 100%;
+	width: 35%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+}
+#nav #ndiv-4 {
+	height: 100%;
+	width: 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #fff;
+}
+#nav #ndiv-5 {
+	height: 100%;
+	width: 8%;
+}
+
+.p1 {
+	margin-bottom: 1rem;
+}
+
+#illustration {
+	width: 60%;
+	margin: 1rem auto;
+	font-size: 2.8rem;
+	margin-bottom: 2rem;
+}
+.capsule {
+	width: 14%;
+	height: 2.5rem;
+	background-color: #fff;
+	border-radius: 2.5rem;
+	display: inline-block;
+	position: relative;
+	top: 0.5rem;
+}
+
+#c {
+	background-color: #f97c5d;
+	width: 30%;
+	height: 3rem;
+	top: 0.3rem;
+}
+
+#vcap {
+	width: 20%;
+	height: 50vh;
+	background-color: #fff;
+	margin: 1rem auto;
+	border-top-left-radius: 7rem;
+	border-top-right-radius: 7rem;
+	background-image: url(https://lh3.googleusercontent.com/q3Rgf8GbyPYYTf3oSXTBISzkIMUilAn4Xri6z4ulbnrMY4qqxCQXGXfbhakZz3vIGD04IwNxi3eAhIxFPWXlChkC-clIEQEUzB0rSJ0);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+#vcap::after {
+	content: "";
+	position: absolute;
+	right: 34%;
+	bottom: 0%;
+	/* background-color: aquamarine; */
+	background-image: linear-gradient(to right, rgba(127, 255, 212, 0), aquamarine);
+	/* height: 36%; */
+	height: 19vw;
+	width: 12%;
+	border-top-left-radius: 3rem;
+	border-top-right-radius: 5.1rem;
+	border-bottom-left-radius: 2rem;
+	z-index: 0;
+}
+
+#con {
+	position: absolute;
+	top: 60%;
+	left: 16%;
+	display: flex;
+	align-items: center;
+	/* justify-content: right; */
+	gap: 5%;
+	text-align: right;
+	width: 30%;
+}
+
+#con #r {
+	font-size: 18px;
+	color: #fff;
+	white-space: nowrap;
+	opacity: 0.7;
+}
+#con #l {
+	height: 6vw;
+	width: 6vw;
+	border-radius: 50%;
+	background-color: #f97c5d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#l i {
+	font-size: 3vw;
+}
+#text1 {
+	position: absolute;
+	font-size: 14px;
+	bottom: 10%;
+	right: 15%;
+	text-align: left;
+	opacity: 0.7;
+}
+#smcir {
+	position: absolute;
+	bottom: 33%;
+	right: 24%;
+	border: 1px solid #fff;
+	height: 4vw;
+	width: 4vw;
+	border-radius: 50%;
+}
+
+#cap2 {
+	width: 6%;
+	height: 26%;
+	background-color: #151419;
+	border-radius: 2.5rem;
+	display: inline-block;
+	position: absolute;
+	border: 1px solid #fff;
+	top: 29%;
+	right: 15%;
+}
+#cap3 {
+	width: 6%;
+	height: 26%;
+	background-color: #151419;
+	border-top-left-radius: 2.5rem;
+	border-top-right-radius: 2.5rem;
+	display: inline-block;
+	position: absolute;
+	border: 1px solid #fff;
+	bottom: 0%;
+	left: 15%;
+}
+#cap4 {
+	width: 7%;
+	height: 2.5rem;
+	background-color: #151419;
+	border: 1px solid #fff;
+	border-radius: 2.5rem;
+	display: inline-block;
+	position: absolute;
+	bottom: 1%;
+	left: 24%;
+}
+
+#star {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	color: #b38d7a;
+	font-size: 2vw;
+}
+
+@media (max-width: 770px) {
+	#nav {
+		padding: 0 6vw;
+		justify-content: space-between;
+	}
+	#nav #ndiv-3 {
+		display: none;
+	}
+	#nav #ndiv-5 {
+		display: none;
+	}
+	#illustration {
+		width: 100%;
+	}
+	#cap3 {
+		height: 18vw;
+	}
+	#smcir {
+		display: none;
+	}
+	#vcap {
+		height: 29vw;
+	}
+	#cap2,
+	#cap4,
+	#text1,
+	#con {
+		display: none;
+	}
+}
