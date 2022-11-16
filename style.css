@@ -135,7 +135,8 @@ html {
 	bottom: 0%;
 	/* background-color: aquamarine; */
 	background-image: linear-gradient(to right, rgba(127, 255, 212, 0), aquamarine);
-	height: 36%;
+	/* height: 36%; */
+	height: 19vw;
 	width: 12%;
 	border-top-left-radius: 3rem;
 	border-top-right-radius: 5.1rem;
@@ -232,4 +233,35 @@ html {
 	left: 25%;
 	color: #b38d7a;
 	font-size: 2vw;
+}
+
+@media (max-width: 770px) {
+	#nav {
+		padding: 0 6vw;
+		justify-content: space-between;
+	}
+	#nav #ndiv-3 {
+		display: none;
+	}
+	#nav #ndiv-5 {
+		display: none;
+	}
+	#illustration {
+		width: 100%;
+	}
+	#cap3 {
+		height: 18vw;
+	}
+	#smcir {
+		display: none;
+	}
+	#vcap {
+		height: 29vw;
+	}
+	#cap2,
+	#cap4,
+	#text1,
+	#con {
+		display: none;
+	}
 }
