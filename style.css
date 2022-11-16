@@ -177,7 +177,7 @@ html {
 }
 #text1 {
 	position: absolute;
-	font-size: 14px;
+	font-size: 1.2vw;
 	bottom: 10%;
 	right: 15%;
 	text-align: left;
