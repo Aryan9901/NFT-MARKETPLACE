@@ -53,9 +53,7 @@ Users can visit the landing page using the provided URL to learn more about the 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 1](https://github.com/Aryan9901/NFT-MARKETPLACE/blob/main/Screenshot%202024-05-15%20123024.png)
 
 ## Contributing
 
